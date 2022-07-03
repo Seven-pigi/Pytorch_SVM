@@ -19,7 +19,7 @@
 
 				/* 说明整个项目所需的源文件路径(.cpp) */
                 "-g",
-                "${workspaceFolder}/basic_five_ways/matchTemplate.cpp",/* ${workspaceFolder}表示路径从当前项目文件夹开始 */
+                "${workspaceFolder}/findRound_template/findRound.cpp",/* ${workspaceFolder}表示路径从当前项目文件夹开始 */
 
 				"-o",	/* 编译输出文件的存放路径 */
 				"${workspaceFolder}/bin/run.o", /* 要与launch.json文件里的program的内容保持一致 */

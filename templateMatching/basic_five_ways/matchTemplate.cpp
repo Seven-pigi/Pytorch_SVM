@@ -20,8 +20,8 @@ int main()
 
 	ShowHelpText();
 
-	g_srcImage = imread("/home/winter/Downloads/Cycle/kanong/kanong/1_1.jpg", 1);
-	g_templateImage = imread("/home/winter/Pictures/1.png", 1);
+	g_srcImage = imread("/home/winter/Downloads/Cycle/kanong/kanong/4.jpg", 1);
+	g_templateImage = imread("/home/winter/Pictures/2.png", 1);
 
 	namedWindow(WINDOW_NAME1, WINDOW_AUTOSIZE);
 	namedWindow(WINDOW_NAME2, WINDOW_AUTOSIZE);
@@ -80,6 +80,6 @@ static void ShowHelpText()
 		"\t\t方法【1】- 归一化平方差匹配法(SQDIFF NORMED)\n"
 		"\t\t方法【2】- 相关匹配法(TM CCORR)\n"   // nop
 		"\t\t方法【3】- 归一化相关匹配法(TM CCORR NORMED)\n"  // nop
-		"\t\t方法【4】- 相关系数匹配法(TM COEFF)\n"
+		"\t\t方法【4】- 相关系数匹配法(TM COEFF)\n"  // nop
 		"\t\t方法【5】- 归一化相关系数匹配法(TM COEFF NORMED)\n");
 }
