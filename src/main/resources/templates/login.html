@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" th:href="@{images/favicon.ico}"  type="image/x-icon"/>
     <link rel="bookmark" th:href="@{images/favicon.ico}"  type="image/x-icon"/>
-    <title>城理头条</title>
+    <title>城理头条登录界面</title>
     <link rel="stylesheet" type="text/css" href="css/login.css">
     <script type="text/javascript" src="javascript/login.js"></script>
 </head>
@@ -44,14 +44,17 @@
             <p class="desc">pick your perfect <span>bouquet</span></p>
             <img class="flower smaller" src="https://image.ibb.co/d5X6pn/1357d638624297b.jpg" alt="1357d638624297b" border="0">
             <p class="account">have an account?</p>
-            <button class="button" id="signin" onclick="location.href='login.html'">login</button>
+            <button class="button" id="signin">login</button>
         </div>
+
         <div class="rightbox">
-            <h2 class="title"><span>BLOOM</span>&<br>BOUQUET</h2>
-            <p class="desc"> pick your perfect <span>bouquet</span></p>
-            <img class="flower" src="https://preview.ibb.co/jvu2Un/0057c1c1bab51a0.jpg"/>
-            <p class="account">don't have an account?</p>
-            <button class="button" id="signup">sign up</button>
+            <form class="more-padding" autocomplete="off" action="/register" method="post">
+                <h2 class="title"><span>BLOOM</span>&<br>BOUQUET</h2>
+                <p class="desc"> pick your perfect <span>bouquet</span></p>
+                <img class="flower" src="https://preview.ibb.co/jvu2Un/0057c1c1bab51a0.jpg"/>
+                <p class="account">don't have an account?</p>
+                <button class="button" id="signup">sign up</button>
+            </form>
         </div>
     </div>
 </div>

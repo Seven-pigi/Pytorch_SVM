@@ -63,10 +63,8 @@ public class userController {
         User user1 =  userServiceImpl.getUser(user.getPassword(),user.getUsername());
 
         if(user1 == null){
-            map.put("msg","登入失败");
             return "login";
         }else{
-            map.put("msg","登入成功");
             return "success";
         }
 
@@ -76,10 +74,9 @@ public class userController {
         return "register";
     }
 
-    @RequestMapping("doRegist")
+    @RequestMapping("/doRegist")
     public String doRegist(User user, Map<String,Object> map){
         userServiceImpl.insertUser(user);
-        map.put("msg","注册成功");
-        return "success";
+        return "login";
     }
 }

@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>register</title>
+    <title>注册</title>
+    <link rel="icon" th:href="@{images/favicon.ico}"  type="image/x-icon"/>
+    <link rel="bookmark" th:href="@{images/favicon.ico}"  type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <script type="text/javascript" src="javascript/register.js"></script>
 </head>
 <body>
 
-<form action="/doRegist" method="post">
-    用户名:<input name="username" type="text"/><br>
-    密码:<input name="password" type="password"> <br>
-    <input type="submit" value="注册">
-</form>
+<div class="container" id="container">
+    <div class="form-container sign-in-container">
+        <form action="/doRegist">
+            <h1>Sign Up</h1>
+            <input type="text" placeholder="username" name="username" required="required"/>
+            <input type="password" placeholder="password" name="password" required="required"/>
+            <button>Sign Up</button>
+        </form>
+    </div>
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-right">
+                <h1>Hello, Friend!</h1>
+                <p>Enter your personal details and start journey with us</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 </body>
 </html>
