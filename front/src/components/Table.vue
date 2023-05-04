@@ -2,7 +2,7 @@
   <div>
      <table class="table caption-top  table-hover">
   <caption>
-      <span class="h5 text-dark">学生列表</span>
+      <span class="h5 text-dark">新闻列表</span>
        <span class="col-4 offset-3">
            <el-input class="w-25" placeholder="请输入学生姓名" v-model="searchName"></el-input>
            <el-button type="primary" icon="el-icon-search" circle class="m-1" @click="searchStudent" v-show="!isSearched"></el-button>
@@ -56,13 +56,13 @@
   </caption>
   <thead>
     <tr>
-      <th scope="col">编号</th>
-      <th scope="col">姓名</th>
-      <th scope="col">年龄</th>
-      <th scope="col">生源地</th>
-      <th scope="col">语文</th>
-      <th scope="col">数学</th>
-      <th scope="col">英语</th>
+      <th scope="col">标题</th>
+      <th scope="col">关键词</th>
+      <th scope="col">内容</th>
+      <th scope="col">发布地点</th>
+      <th scope="col">作者</th>
+      <th scope="col">点赞数</th>
+      <th scope="col">评论数</th>
       <th scope="col">操作</th>
     </tr>
   </thead>
@@ -115,7 +115,7 @@ export default {
             console.log(`每页 ${val} 条`);
             this.number_per_page = val;
             axios({
-              url: "http://localhost:8080/students",
+              url: "http://localhost:9000/students",
               method: "POST", 
               data: {
                   page: this.page,
@@ -129,7 +129,7 @@ export default {
           console.log(`当前页: ${val}`);
           this.page = val
           axios({
-              url: "http://localhost:8080/students",
+              url: "http://localhost:9000/students",
               method: "POST", 
               data: {
                   page: this.page,
@@ -148,7 +148,7 @@ export default {
             }
             else{
                 this.page+=1;
-                axios.get('http://localhost:8080/students/'+this.page).then(
+                axios.get('http://localhost:9000/students/'+this.page).then(
                     response => {
                         this.students=response.data;
                     },
@@ -167,7 +167,7 @@ export default {
             }
             else{
                 this.page-=1;
-                axios.get('http://localhost:8080/students/'+this.page).then(
+                axios.get('http://localhost:9000/students/'+this.page).then(
                 response => {
                     this.students=response.data;
                 },
@@ -204,7 +204,7 @@ export default {
             } 
             else{
                await axios({
-                    url:"http://localhost:8080/add/",
+                    url:"http://localhost:9000/add/",
                     method:"POST",
                     data:this.newStudent
                 });
@@ -213,7 +213,7 @@ export default {
                 message: '添加成功!'
             });
                 this.centerDialogVisible=false;
-             await  axios.get('http://localhost:8080/get_students_count/').then(
+             await  axios.get('http://localhost:9000/get_students_count/').then(
              response => {
                     this.count=parseInt(response.data);
                 },
@@ -225,7 +225,7 @@ export default {
         },
         searchStudent(){
             
-            // alert('http://localhost:8080/search?name='+this.searchName+"&")
+            // alert('http://localhost:9000/search?name='+this.searchName+"&")
             if (this.searchName==="") {
                 this.$alert("查询内容不能为空！","温馨提示",{
                     confirmButtonText: '知道啦'
@@ -233,7 +233,7 @@ export default {
             }
             else{
                 axios({
-                    url:"http://localhost:8080/search",
+                    url:"http://localhost:9000/search",
                     method:"POST",
                     data:{
                         name:this.searchName,
@@ -255,7 +255,7 @@ export default {
         },
        backBeforeSearch(){
             this.searchName=""
-            // axios.get('http://localhost:8080/students/'+this.page).then(
+            // axios.get('http://localhost:9000/students/'+this.page).then(
             //     response => {
             //         console.log(response.data);
             //         // this.students=response.data.students;
@@ -271,7 +271,7 @@ export default {
       async  updateTable() {
             // alert("表格更新")
           axios({
-              url: "http://localhost:8080/students",
+              url: "http://localhost:9000/students",
               method: "POST", 
               data: {
                   page: this.page,
@@ -280,7 +280,7 @@ export default {
         }).then(res => {
             this.students=res.data;
            })
-        axios.get('http://localhost:8080/get_students_count/').then(
+        axios.get('http://localhost:9000/get_students_count/').then(
              response => {
                     this.count=parseInt(response.data);
                 },
@@ -296,7 +296,7 @@ export default {
     },
     mounted() {
         axios({
-              url: "http://localhost:8080/students",
+              url: "http://localhost:9000/students",
               method: "POST", 
               data: {
                   page: this.page,
@@ -305,7 +305,7 @@ export default {
         }).then(res => {
             this.students=res.data;
            })
-        axios.get('http://localhost:8080/get_students_count/').then(
+        axios.get('http://localhost:9000/get_students_count/').then(
              response => {
                     this.count=parseInt(response.data);
                 },
@@ -319,7 +319,7 @@ export default {
             alert("您还没有登录，请先登录！")
        }else{
             await axios({
-                url: "http://localhost:8080/checkToken",
+                url: "http://localhost:9000/checkToken",
                 method: "POST",
                 data: {
                     username: sessionStorage.getItem('username'),

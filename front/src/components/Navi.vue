@@ -13,7 +13,7 @@
       <el-menu-item index="students" @click="toStudentsList">
         <i class="el-icon-document" ></i>
         <i class="bi bi-person-lines-fill"></i>
-        <span slot="title">学生列表</span>
+        <span slot="title">新闻信息</span>
       </el-menu-item>
       <el-menu-item index="analysis" @click="toAnalysis">
         <i class="el-icon-s-management"></i>

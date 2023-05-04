@@ -21,11 +21,11 @@ public class SwaggerConfig {
     }
 
     private ApiInfo apiInfo() {
-        Contact contact = new Contact("张太难", "http://120.25.123.183:8001/#/", "2998637256@qq.com");
+        Contact contact = new Contact("churry", "http://localhost:8001/#/", "1344081281@qq.com");
         return new ApiInfo("学生管理系统API文档",
                 "我命由我不由天",
                 "v1.0",
-                "http://120.25.123.183:8001/#/",
+                "http://localhost:8001/#/",
                  contact,
                 "Apache 2.0",
                 "http://www.apache.org/licenses/LICENSE-2.0",

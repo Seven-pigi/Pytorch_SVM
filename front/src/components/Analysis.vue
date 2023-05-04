@@ -25,13 +25,13 @@ export default {
     },
    async mounted() {
        await axios({
-            url: "http://localhost:8080/average_score",
+            url: "http://localhost:9000/average_score",
             method: "GET",
         }).then(res => {
             this.avgScore = res.data
         })
         await axios({
-            url: "http://localhost:8080/get_place_count",
+            url: "http://localhost:9000/get_place_count",
             method: "GET",
         }).then(res => {
             this.placeCount = res.data

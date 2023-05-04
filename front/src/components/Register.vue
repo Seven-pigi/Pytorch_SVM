@@ -87,7 +87,7 @@ import axios from 'axios';
         this.$refs[formName].validate((valid) => {
           if (valid) {
             axios({
-              url: "http://localhost:8080/register",
+              url: "http://localhost:9000/register",
               method: "POST",
               data:{
                 username:this.ruleForm.username,

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="983c60a6-9483-4731-b539-b3f1ad7342c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/AnalysisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/AnalysisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/TokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/TokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/components/Analysis.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/components/Analysis.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/components/Container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/components/Container.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/components/Item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/components/Item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/components/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/components/Logout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/components/Logout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/components/Navi.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/components/Navi.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/components/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/components/Register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/components/SelectPlace.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/components/SelectPlace.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/components/Table.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/components/Table.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/components/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/components/User.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../student.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../student.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../user.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="2OrhXo1iOrRLeCkmJwzDw8Hr9Ur" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/sql" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/sql" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="console.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/500d4a1d-e17b-4fe1-a9a1-b0b8fb1f927c/console.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="500d4a1d-e17b-4fe1-a9a1-b0b8fb1f927c" namespace="schema/&quot;student_system&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="student_manage_system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.console.sql" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="983c60a6-9483-4731-b539-b3f1ad7342c6" name="Default Changelist" comment="" />
+      <created>1682324649805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682324649805</updated>
+      <workItem from="1682324651272" duration="9000" />
+      <workItem from="1682324668429" duration="7375000" />
+      <workItem from="1682495731475" duration="3284000" />
+      <workItem from="1682776584253" duration="273000" />
+      <workItem from="1683203613466" duration="1276000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="629" y="346" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1682337724436">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state x="629" y="346" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1173@72.27.1848.1173" timestamp="1682337724436" />
+    <state x="804" y="300" width="571" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1682345780124">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state x="804" y="300" width="571" height="633" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1173@72.27.1848.1173" timestamp="1682345780124" />
+    <state x="644" y="259" width="694" height="716" key="#console.sql" timestamp="1682338305041">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state x="644" y="259" width="694" height="716" key="#console.sql/72.27.1848.1173@72.27.1848.1173" timestamp="1682338305041" />
+    <state x="774" y="375" width="424" height="491" key="FileChooserDialogImpl" timestamp="1682338294471">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state x="774" y="375" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1173@72.27.1848.1173" timestamp="1682338294471" />
+    <state width="1802" height="382" key="GridCell.Tab.0.bottom" timestamp="1682776857856">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="382" key="GridCell.Tab.0.bottom/72.27.1848.1173@72.27.1848.1173" timestamp="1682776857856" />
+    <state width="1802" height="382" key="GridCell.Tab.0.center" timestamp="1682776857856">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="382" key="GridCell.Tab.0.center/72.27.1848.1173@72.27.1848.1173" timestamp="1682776857856" />
+    <state width="1802" height="382" key="GridCell.Tab.0.left" timestamp="1682776857855">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="382" key="GridCell.Tab.0.left/72.27.1848.1173@72.27.1848.1173" timestamp="1682776857855" />
+    <state width="1802" height="382" key="GridCell.Tab.0.right" timestamp="1682776857856">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="382" key="GridCell.Tab.0.right/72.27.1848.1173@72.27.1848.1173" timestamp="1682776857856" />
+    <state width="1802" height="382" key="GridCell.Tab.1.bottom" timestamp="1682776857857">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="382" key="GridCell.Tab.1.bottom/72.27.1848.1173@72.27.1848.1173" timestamp="1682776857857" />
+    <state width="1802" height="382" key="GridCell.Tab.1.center" timestamp="1682776857857">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="382" key="GridCell.Tab.1.center/72.27.1848.1173@72.27.1848.1173" timestamp="1682776857857" />
+    <state width="1802" height="382" key="GridCell.Tab.1.left" timestamp="1682776857857">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="382" key="GridCell.Tab.1.left/72.27.1848.1173@72.27.1848.1173" timestamp="1682776857857" />
+    <state width="1802" height="382" key="GridCell.Tab.1.right" timestamp="1682776857857">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="382" key="GridCell.Tab.1.right/72.27.1848.1173@72.27.1848.1173" timestamp="1682776857857" />
+    <state width="1802" height="491" key="GridCell.Tab.2.bottom" timestamp="1682383807553">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="491" key="GridCell.Tab.2.bottom/72.27.1848.1173@72.27.1848.1173" timestamp="1682383807553" />
+    <state width="1802" height="491" key="GridCell.Tab.2.center" timestamp="1682383807552">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="491" key="GridCell.Tab.2.center/72.27.1848.1173@72.27.1848.1173" timestamp="1682383807552" />
+    <state width="1802" height="491" key="GridCell.Tab.2.left" timestamp="1682383807552">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="491" key="GridCell.Tab.2.left/72.27.1848.1173@72.27.1848.1173" timestamp="1682383807552" />
+    <state width="1802" height="491" key="GridCell.Tab.2.right" timestamp="1682383807553">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="491" key="GridCell.Tab.2.right/72.27.1848.1173@72.27.1848.1173" timestamp="1682383807553" />
+    <state x="353" y="233" width="1037" height="737" key="SettingsEditor" timestamp="1682501877395">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state x="353" y="233" width="1037" height="737" key="SettingsEditor/72.27.1848.1173@72.27.1848.1173" timestamp="1682501877395" />
+  </component>
+</project>
